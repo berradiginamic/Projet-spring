@@ -1,0 +1,25 @@
+Tache 1:Extraire tous les films (nom et années de sortie) d’un acteur donné
+http://localhost:8080/acteurs/{acteurId}/films
+
+Tache 2:  Extraire tous les rôles d’un film donné
+http://localhost:8080/films/{filmId}/actors-and-characters  , where {filmId} is the ID of the film
+
+Tache 3:
+http://localhost:8080/films/released-between-years?startYear=<START>&endYear=<END>  , remplacé dans <START> and <END> lees dates voulues
+
+Tache 4: Extraire les films communs à 2 acteurs ou actrices donnés.
+http://localhost:8080/films/by-two-actors?acteurId1=<IdValeur1>&acteurId2=<IdValeur2>  ;  remplace <IdValeur> par les ID a comparer.
+
+Tache 5: Extraire tous les films d’un genre donné
+http://localhost:8080/films/by-genre?genreId=<YOUR_GENRE_ID>, remplace <YOUR_GENRE_ID> ; par Id de genre
+
+Tache 6:  Extraire les acteurs communs à 2 films donnés
+http://localhost:8080/acteurs/in-films?filmId1=<YOUR_FILM_ID_1>&filmId2=<YOUR_FILM_ID_2>  , remplace par les ID des films.
+
+Tache 7:  Extraire tous les films d’un réalisateur donné
+http://localhost:8080/realisateurs/{idRealisateurs}/films
+
+Tache 8: Extraire les films sortis entre 2 années données et qui ont un acteur/actrice donné parmi les acteurs
+http://localhost:8080/films/betweenYearsAndByActeur?startYear=2000&endYear=2020&acteurId=123
+
+Tache 9:
